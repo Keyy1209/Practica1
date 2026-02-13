@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer página web responsive</title>
+</head>
+    <style>
+        body{
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+        header, nav, main, footer{
+            padding: 15px
+        }
+        header { background: #333;
+            color:white
+        }
+        nav{
+            background: #eee;
+            text-align: center;
+        }
+        footer{
+            background: #333;
+            color: #eee;
+            text-align: center;
+        }
+        .contenedor {
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+            
+        }
+        .col{
+            background: #f6f6f6;
+            padding: 15px;
+            flex: 1;
+            box-shadow: 5px 5px 15px 0px #333;
+        }
+        @media (max-with: 700px){
+            .contenedor{
+                flex-direction: column;}
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none; 
+            color: #333;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            background: #c9f7f8;
+        }
+        .col img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+
+
+    </style>    
+<body>
+<header>
+    <h1>Mi web responsive - Keiry Baires</h1>
+    <p>Ejemplo simple para entender responsive</p>
+</header>
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+</nav>
+
+    <main>
+        <div class="contenedor">
+            <section class="col">
+                <h2>Sección 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.9gNbIKoKnIETaQUiSTt31QHaDt?rs=1&pid=ImgDetMain&o=7&rm=3">
+            </section>
+
+            <section class="col">
+                <h2>Sección 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia magnam aliquid perspiciatis ducimus nemo earum officiis vero, quidem quibusdam accusamus culpa soluta fuga deleniti voluptatum. Exercitationem ipsa nobis mollitia quos!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis explicabo reprehenderit, ut porro minima amet ab corporis beatae molestiae quasi atque nisi suscipit? Animi, nisi deleniti architecto inventore sed repellat.</p>
+                <img src="https://areaf5.es/wp-content/uploads/2023/05/programacion-1-scaled.jpg">
+            </section>
+
+            <section class="col">
+                <h2>Sección 3</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 4</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 5</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 6</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 7</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 8</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 9</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+           
+            <section class="col">
+                <h2>Sección 10</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 11</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+            <section class="col">
+                <h2>Sección 12</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam molestiae repellendus dolorum aliquid? Deleniti assumenda quas vero veniam porro possimus quod reiciendis ducimus qui vel? Blanditiis tenetur obcaecati deserunt sunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ullam repellendus aspernatur impedit! Quod veritatis quos nihil vero asperiores odit ullam perspiciatis quas. Aliquid quibusdam iste autem soluta aliquam?</p>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>2026 - Ejemplo Sencillo</p>
+    </footer>
+</body>
+</html>

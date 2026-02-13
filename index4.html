@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercer página web responsive</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+    header, nav, main, footer{
+        padding: 15px;
+    }
+
+    header{
+        background: #1f2937;
+        color: white;
+    }
+
+    nav{
+        background: #f3f4f6;
+    }
+
+    footer{
+        background: #1f2937;
+        color: white;
+        text-align: center;
+    }
+
+    .wrap{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    nav a{
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+        padding: 8px 10px;
+        background: white;
+        border: 1px solid #ddd;
+        text-decoration: none;
+        color: #111;
+    }
+
+    .caja{
+        background: #fafafa;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    main div{
+        display: flex;
+    }
+
+
+</style>
+<body>
+    <header>
+        <div class="wrap">
+            <h1>Mi web responsive - Keiry Baires</h1>
+            <P>Esto funciona bien en móvil sin casi usar media queries.</P>
+        </div>
+    </header>
+
+    <nav>
+        <div class="wrap">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Galería</a>
+            <a href="#">Contacto</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="wrap">
+            <section class="caja">
+                <h2>Sección A</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis expedita veniam possimus explicabo iusto consequatur rem amet numquam unde debitis dolore repudiandae necessitatibus, iure atque reiciendis perspiciatis error ipsam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam repellendus quis ex corrupti, eligendi ea sunt beatae molestiae provident. Veritatis laborum nemo provident ipsam debitis delectus, neque architecto minima!</p>
+            </section>
+
+            <section class="caja">
+                <h2>Sección B</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis expedita veniam possimus explicabo iusto consequatur rem amet numquam unde debitis dolore repudiandae necessitatibus, iure atque reiciendis perspiciatis error ipsam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam repellendus quis ex corrupti, eligendi ea sunt beatae molestiae provident. Veritatis laborum nemo provident ipsam debitis delectus, neque architecto minima!</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <p>2026 - Ejemplo básico responsive</p>
+        </div>
+    </footer>
+
+</body>
+</html>

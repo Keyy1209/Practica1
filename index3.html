@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segunda página responsive</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+    header, nav, main, footer{
+        padding: 15px;
+    }
+    header{
+        background: #2b6cb0;
+        color: white;
+    }
+    nav{
+        background: #e2e8f0;
+    }
+    footer{
+        background: #2b6cb0;
+        color: white;
+        text-align: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+    .caja{
+        background: #f7fafc;
+        padding: 15px;
+        border: 1px solid #ddd;
+    }
+    @media (max-with: 700px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    nav a{
+        margin-right: 10 px;
+        text-decoration: none;
+        color: #1a202c;
+    }
+
+</style>
+<body>
+<header>
+    <h1>Mi web Responsive - Keiry Baires</h1>
+    <p>Ejemplo simple usando grid.</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Blog</a>
+    <a href="#">Acerca</a>
+</nav>
+
+<main>
+    <div class="grid">
+        <article class="caja">
+            <h2>Artículo 1</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, id perspiciatis facere assumenda dignissimos numquam quasi maiores veniam? Eligendi quod eius distinctio itaque quam consequatur aperiam vitae blanditiis, accusantium et.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In totam quaerat neque iure libero vero, tempora aut eaque distinctio. Porro minima explicabo voluptatem mollitia reiciendis amet culpa facere nihil cum.</p>
+        </article>
+
+        <article class="caja">
+            <h2>Artículo 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, id perspiciatis facere assumenda dignissimos numquam quasi maiores veniam? Eligendi quod eius distinctio itaque quam consequatur aperiam vitae blanditiis, accusantium et.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In totam quaerat neque iure libero vero, tempora aut eaque distinctio. Porro minima explicabo voluptatem mollitia reiciendis amet culpa facere nihil cum.</p>
+        </article>
+    </div>
+</main>
+
+<footer>
+    <p>Footer - ejemplo con Grid</p>
+</footer>
+
+</body>
+</html>
